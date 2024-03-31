@@ -20,3 +20,33 @@ body {
     display: flex;
     justify-content: center;
 }
+
+#calculator-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator-body {
+    display: flex;
+}
+
+#main-calculator-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-row {
+    display: flex;
+}
+
+#zero-container {
+    flex-grow: 1;
+}
+
+#equals-container {
+    flex-grow: 3;
+}
+
+#operators {
+    flex-direction: column;
+}
