@@ -39,6 +39,10 @@ body {
     display: flex;
 }
 
+button {
+    width: 100%;
+}
+
 #zero-container {
     flex-grow: 1;
 }
@@ -47,6 +51,14 @@ body {
     flex-grow: 3;
 }
 
+#equals {
+    background-color: blueviolet;
+}
+
 #operators {
     flex-direction: column;
+}
+
+#operators button {
+    background-color: orange;
 }
